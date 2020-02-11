@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: mediumblue;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 40px;
+}
+
+.container .box {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: lightblue;
+  height: 450px;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.4;
+}
+
+.container .box .boxy {
+  border: 1px solid darkgreen;
+  height: 110px;
+  width: 80%;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: lightpink;
+}
+
+.container .box .boxxxy {
+  border: 1px solid darkgreen;
+  height: 170px;
+  width: 80%;
+  border-radius: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: lightgreen;
+}
+
+.container .box:hover {
+  opacity: 1;
+}
+
+.container .boxy:hover {
+  background-color: purple;
+}
+
+.container .boxxxy:hover {
+  background-color: yellow;
+}
+/*# sourceMappingURL=index.css.map */

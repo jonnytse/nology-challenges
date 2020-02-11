@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    border: 2px solid black;
+    height: 500px;
+    width: 900px;
+    margin: 20px auto;
+}
+
+#stars{
+    border: 2px solid green;
+    height: 269px;
+    width: 50%;
+    float: left;
+}
+
+#stripeswide{
+    border: 2px solid hotpink;
+    height: 250px;
+    width: 100%;
+    float: left;
+}
+
+#stripesnarrow{
+    border: 2px solid blue;
+    height: 250px;
+    width: 50%;
+    float: left;
+}
+
+.red{
+    background-color: red;
+    height: 15.3846154%;
+    width: 100%;
+
+}
+
+.white{
+    background-color: white;
+    height: 15.3846154%;
+    width: 100%;
+}

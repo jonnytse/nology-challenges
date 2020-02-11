@@ -1,0 +1,68 @@
+$standard-spacing: 20px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: mediumblue;
+    text-align: center;
+    padding: $standard-spacing * 2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: $standard-spacing *2;
+
+    .box {
+        border: 1px solid black;
+        border-radius: $standard-spacing;
+        background-color: lightblue;
+        height: 450px;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 0.4;
+        
+        .boxy {
+            border: 1px solid darkgreen;
+            height: 110px;
+            width: 80%;
+            border-radius: $standard-spacing;
+            margin: $standard-spacing;
+            background-color: lightpink;
+        }
+
+        .boxxxy {
+            border: 1px solid darkgreen;
+            height: 170px;
+            width: 80%;
+            border-radius: $standard-spacing;
+            justify-content: space-around;
+            background-color: lightgreen;
+        }
+    }
+
+    .box:hover {
+        opacity: 1;
+    }
+
+    .boxy:hover {
+        background-color: purple;
+    }
+
+    .boxxxy:hover {
+        background-color: yellow;
+    }
+
+}
+
+
+
+
+
